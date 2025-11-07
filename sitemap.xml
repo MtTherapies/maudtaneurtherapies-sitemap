@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
   <!-- Page principale -->
   <url>
     <loc>https://maudtaneurtherapies.com/</loc>
     <lastmod>2025-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://maudtaneurtherapies.com/images/accueil-maud-taneur-therapies.jpg</image:loc>
+      <image:title>Maud Taneur – Énergéticienne à distance et en présentiel</image:title>
+      <image:caption>Séance énergétique et soins holistiques à distance ou en cabinet</image:caption>
+    </image:image>
   </url>
 
   <!-- Pages de services -->
@@ -44,14 +52,25 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Galerie et boutique -->
+  <!-- Galerie, avis et boutique -->
   <url>
-    <loc>https://maudtaneurtherapies.com/galerie-et-avis</loc>
+    <loc>https://maudtaneurtherapies.com/galerie-avis-et-boutique</loc>
     <lastmod>2025-11-07</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://maudtaneurtherapies.com/images/soins-energetiques.jpg</image:loc>
+      <image:title>Soins énergétiques et avis de clients</image:title>
+      <image:caption>Galerie des soins énergétiques et témoignages de la clientèle</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://maudtaneurtherapies.com/images/boutique-produits-energetiques.jpg</image:loc>
+      <image:title>Boutique énergétique et produits bien-être</image:title>
+      <image:caption>Articles énergétiques et produits bien-être proposés par Maud Taneur</image:caption>
+    </image:image>
   </url>
 
+  <!-- Boutique -->
   <url>
     <loc>https://maudtaneurtherapies.com/boutique</loc>
     <lastmod>2025-11-07</lastmod>
